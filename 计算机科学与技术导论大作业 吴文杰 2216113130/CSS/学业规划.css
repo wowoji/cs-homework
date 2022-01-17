@@ -1,0 +1,159 @@
+.zerogrid{
+    width: 1519.2px;
+    height: 325px;
+    background-image: linear-gradient(rgb(216, 255, 206),rgb(31, 211, 238));
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.wrap-header{
+width:1200px;
+margin-top: 60px;
+background-color: rgb(198,226,178);
+height: 65px;
+position: absolute;
+
+
+}
+.logo{
+    width: 1200px;
+    height: 200px;
+    background-color: #fff;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 535px;
+}
+.shell{
+    display: flex;
+    justify-content: center;
+}
+.button,.portrait{
+    background-color: rgb(31, 211, 238);
+    width: 170px;
+    height: 65px;
+    text-align: center;
+   line-height: 65px;
+   transition: .3s;
+   cursor: pointer;
+   font-size: 25px;
+}
+.button:hover{
+    background-color: rgb(217,228,138);
+}
+.button li:hover{
+    background-color: rgb(210,220,221);
+}
+.button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: rgb(210,220,221);
+}
+.button:hover li{
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.portrait:hover .information{
+    opacity: 1;
+    line-height: 65px;
+    transform: translate(-20px,-10px);
+    height: auto;
+}
+.nav li:hover{
+    background-color: rgb(217,228,138);
+} 
+.atupian{
+    width: 1200px;
+    background-color: #F4BBBB;
+}
+.atupian img{
+    width: 1200px;
+    height: 520px;
+}
+.body1{
+    width: 1519.2px;
+    padding: 40px;
+    height: 400px;
+    background-image: linear-gradient(rgb(31, 211, 238),rgb(212,242,123));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1, .box2,.box3{
+    width: 300px;
+    height: 380px;
+    background-color: #b66e62;  
+    color: cornsilk;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.box1 img, .box2 img,.box3 img{
+    /* width: 370px; */
+    margin-bottom: 27px;
+    height: 250px;
+    width: 100%;
+    opacity: .95;
+    transition: .6s;
+}
+.body1 img:hover{
+    transform: scale(1.2);
+}
+.wenzi1{
+    display: flex;
+    flex-direction: row;
+    width: 1519.2px;
+    height: 300px;
+    background-image: linear-gradient(rgb(212,242,123),rgb(255, 242, 146));
+    justify-content: space-around;
+}
+.box4 ,.box5{
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(rgb(221,237,106),rgba(255, 249, 200, 0.801));
+    font-size: 35px;
+    margin-top: 50px;
+    opacity: .5;
+    color: rgb(141, 20, 20);
+}
+.apartments{
+    width: 1519.2px;
+    height: 550px;
+    background-image: linear-gradient(rgb(253, 242, 153),rgb(125, 205, 248));
+}
+.biaoti{
+    color: rgb(68,68,68);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .wb{
+    width: 1519.2px;
+    height: 480px;
+    background-color: rgb(243,239,160);
+    display: flex;
+    justify-content: center;
+}
+.wba{
+    width: 1200px;
+    height: 470px;
+    background-color: rgb(243,239,160);
+    position: relative;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 60px;
+    line-height: 55px;
+    text-indent:50px;
+}

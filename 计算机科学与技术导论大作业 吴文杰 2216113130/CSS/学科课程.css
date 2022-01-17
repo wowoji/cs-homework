@@ -1,0 +1,119 @@
+
+.zerogrid{
+    width: 1400px;
+    height: 870px;
+    background-image: linear-gradient(rgb(165, 239, 250),rgb(229, 255, 235));
+    position: relative;
+}
+.wrap-header{
+width: 1200px;
+margin-top: 60px;
+margin-left: 100px;
+background-color: rgb(129, 172, 203);
+height: 750px;
+position: absolute;
+
+}
+.wrap-body{
+    background-attachment: fixed;
+    width: 1330px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 1200px;
+    height: 200px;
+    background-color: #fff;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 535px;
+}
+.shell{
+    display: flex;
+    justify-content: center;
+}
+.button,.portrait{
+    background-color: rgb(129, 172, 203);
+    width: 170px;
+    height: 65px;
+    text-align: center;
+   line-height: 65px;
+   transition: .3s;
+   cursor: pointer;
+   font-size: 25px;
+}
+.button:hover{
+    background-color: rgb(217,228,138);
+}
+.button li:hover{
+    background-color: rgb(210,220,221);
+}
+.button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: rgb(210,220,221);
+}
+.button:hover li{
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.portrait:hover .information{
+    opacity: 1;
+    line-height: 65px;
+    transform: translate(-20px,-10px);
+    height: auto;
+}
+.nav li:hover{
+    background-color: rgb(217,228,138);
+} 
+.atupian{
+    width: 1200px;
+    background-color: rgb(229, 255, 235);
+}
+.atupian img{
+    width: 1200px;
+    height: 520px;
+}
+.zg{
+    width:1519.2px;
+    height: 1544px;
+    background-color: rgb(229, 255, 235);
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.one{
+    width: 1400px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+.a{
+    width: 592px;
+    height: 370px;
+    background-color: rgb(229, 255, 235);  
+}
+.a img{
+    width: 100%;
+    height: 100%;
+}
+.b{
+    width: 600px;
+    height: 370px;
+    color: black;
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+.c img{
+    width: 592px;
+    height: 370px;
+}
